@@ -13,8 +13,7 @@ class Book:
         """
         self.title = title
         self.author = author
-        self._is_checked_out = False
-    
+        self._is_checked_out = False    
     def __str__(self) -> str:
         """Return a string representation of the book."""
         status = "Checked Out" if self._is_checked_out else "Available"
